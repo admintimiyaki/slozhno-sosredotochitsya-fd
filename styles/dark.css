@@ -10,6 +10,22 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-image: url("../images/cover-image-dark.png");
+  --title-color: #db00ff;
+  --font-weight-bold: 700;
+  --font-line-height: 23.4px;
+  --list-gap: 20px;
+  --font-weight-reg: 400;
+  --content-color: #f1b2ce;
+  --subtitle-color: #ff0070;
+  --decor-color: #ff0070;
+  --button-text-color: #ff0070;
+  --button-text-color-hover: rgba(255, 0, 112, 0.4);
+  --link-color: #ff0070;
+  --title-decor-color: #000028;
+  --accent-color: #ff0070;
+  --main-font-family: "IBM Plex Mono";
+  --main-text-size: 18px;
+  --bg-color: #000028;
 }
 
 .theme-dark .page {
@@ -21,7 +37,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .root {
+  :root {
     --bg-image: url("../images/cover-image-dark.png");
   }
 
