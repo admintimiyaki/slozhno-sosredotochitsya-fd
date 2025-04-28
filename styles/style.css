@@ -162,9 +162,9 @@
   font-weight: var(--font-weight-bold, 700);
 }
 
-.content-section__title-gallery {
+/* .content-section__title-gallery {
   font-weight: var(--font-weight-bold, 700);
-}
+} */
 
 .content-section__list {
   display: flex;
@@ -202,7 +202,7 @@
 .info__paragraph-link:hover {
   /* text-decoration: underline; 
   text-underline-offset: 3px;*/
-  border-bottom: solid currentColor;
+  border-bottom: 1px solid currentColor;
 }
 
 .info__paragraph-link:focus {
